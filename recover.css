@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lakshay-container{
+    display: flex;
+}
+.lakshay-container-1{
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-left: 8%;
+    margin-top: 2rem;
+    
+    
+}
+.lakshay-container-1 h1{
+    font-weight: 700;
+}
+.lakshay-container-3{
+   
+    width: 15%;
+    height: 3vh;
+    
+    border-bottom: 10px solid aqua;
+}
+.lakshay-img img{
+    height: 100%;
+    width: 90%;
+}
+.lakshay-card-1{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.lakshay-place-cards{
+    display: flex;
+    flex-direction: column;
+}
+.lakshay-text{
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+.lakshay-text ul li{
+    font-size: 1.2;
+}
+.lakshay-container-2{
+    
+   width: 50%;
+   margin-top: 5rem;
+}
+.lakshay-img-1 img{
+    
+    
+    margin: auto;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 60%;
+    height: 50vh;
+
+border-radius: 100%;
+}
+.lakshay-rockimg-2{
+    
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 15%;
+    font-size: 1.7rem;
+    font-family: Permanent Marker;
+    color: rgb(10, 168, 226);
+}
+.lakshay-rockimg-2 h1{
+    font-size: 2.5rem;
+}

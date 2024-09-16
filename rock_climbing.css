@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+}
+.rockimg{
+    margin-top: 6rem;
+    
+    margin-left: 20%;
+    width: 50%;
+}
+.rockimg-1 img{
+    
+    margin: auto;
+    width: 70%;
+    height: 50vh;
+/* border: 2px solid blue; */
+border-radius: 100%;
+}
+.rockimg-2{
+    margin-top: 2rem;
+    width: 75%;
+    margin-left: 15%;
+    font-size: 1.7rem;
+    font-family: 'Permanent Marker';
+    color: rgb(255, 111, 0);
+}
+
+.rocktext{
+    
+    width: 44%;
+    margin-left: 8%;
+    margin-top: 3rem;
+
+}
+.rocktext h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+.rock-info h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.rock-info p{
+    word-spacing: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+.rock-info{
+    border-bottom: 2px solid aqua;
+    padding-bottom: 2rem;
+}
+.rock-info-2{
+    margin-top: 1.25rem;
+}
+.rock-info-2 p{
+    font-size: 1.25rem;
+}
+.rock-info-3{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.rock-info-3a{
+    /* width: 20%; */
+    margin-right: 3rem;
+    border: 2px sol;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.rock-info-3b{
+    font-size: 1.2rem;
+    font-weight: 700;
+}

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bitter";
+  }
+  .harmanNavbar {
+    display: flex;
+    overflow:hidden;
+
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin: 0 4rem;
+    padding: 2rem 2rem;
+    align-items: end;
+    width: 80%;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    gap: 6rem;
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 7rem;
+      li:hover {
+        color: #24b9d7;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+  .harmanHeader {
+    width: 98.9vw;
+    overflow:hidden;
+
+    height: 100vh;
+    background-image: url("images/headerBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+  }
+  .harmanHeaderClipPath {
+    width: 100%;
+    height: 100%;
+    background-color: #20262e;
+    clip-path: polygon(0 0, 0% 97%, 97% 0);
+    display: flex;
+    flex-direction: column;
+  
+    .harmanHeaderChild1 {
+      width: 40%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-top: 8rem;
+      margin-left: 4rem;
+      gap: 1.4rem;
+      padding: 2rem;
+      h1 {
+        font-size: 5rem;
+        font-weight: 800;
+        line-height: 5rem;
+        font-weight: 900;
+      }
+      > p:nth-child(2) {
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 800;
+      }
+      > p:nth-child(3) {
+        font-size: 1.2rem;
+        font-weight: 500;
+        width: 50%;
+      }
+    }
+  }
+  .harmanHeader2 {
+    display: flex;
+    gap: 4rem;
+    padding: 4rem;
+    flex-direction: column;
+    .harmanHeader2Heading {
+      h1:nth-child(1) {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 3.4rem;
+      }
+      h1:nth-child(2) {
+        font-size: 3rem;
+        font-weight: 800;
+        line-height: 3.4rem;
+      }
+    }
+    .harmanHeader2Heading::after {
+      content: "";
+      width: 8rem;
+      height: 0.7rem;
+      background-color: #24b9d7;
+      display: block;
+      margin: 1rem 0;
+    }
+    .harmanHeader2Cards {
+      display: grid;
+      grid-template-columns: repeat(3, 33%);
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 88%;
+      .harmanHeader2Card {
+        gap: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem;
+        h1 {
+          font-size: 2rem;
+          font-weight: 800;
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 2rem;
+          font-weight: 500;
+        }
+        > div:nth-child(2) {
+          display: flex;
+          gap: 2rem;
+          flex-direction: column;
+        }
+        img {
+          scale: 1.4;
+        }
+      }
+    }
+  }
+  
